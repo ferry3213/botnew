@@ -87,7 +87,7 @@ async function startHisoka() {
     for (let tihh of fatihh) {
     if (tihh.isGroup == false) {
     if (tihh.status == "offer") {
-    let pa7rick = await hisoka.sendTextWithMentions(tihh.from, `*${hisoka.user.name}* tidak bisa menerima panggilan ${tihh.isVideo ? `video` : `suara`}. Maaf @${tihh.from.split('@')[0]} kamu akan diblockir. Jika tidak sengaja silahkan hubungi Owner untuk dibuka !`)
+    let pa7rick = await hisoka.sendTextWithMentions(tihh.from, `*${hisoka.user.name}* tidak bisa menerima panggilan ${tihh.isVideo ? `video` : `suara`}. Maaf @${tihh.from.split('@')[0]} apakah kamu baru saja menelpon bot? hubungi owner untuk membuka blokir!`)
     hisoka.sendContact(tihh.from, global.owner, pa7rick)
     await sleep(8000)
     await hisoka.updateBlockStatus(tihh.from, "block")
