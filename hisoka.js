@@ -3040,7 +3040,6 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}tupai
 │
 └───────⭓
-OPEN DONASINYA KAK :  https://saweria.co/skybeebot
 OWNER : FERRY ISNAWAN
 INSTAGRAM : ferry_isnawan45
 
